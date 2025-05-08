@@ -181,3 +181,6 @@ cython_debug/
 
 #nothin from task_2/data
 task_2/data/*
+
+#nothing with .pth
+*.pth
