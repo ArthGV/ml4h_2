@@ -4,6 +4,8 @@
 
 The code of every question is fully contained in a notebook named 1_Qi.ipynb.
 
+---
+
 ## Pneumonia Classification with Explainability (ML4H Project 2 - Task 2)
 
 ###  Overview
@@ -13,8 +15,8 @@ This project explores interpretable and explainable deep learning techniques for
 ---
 
 ### 📁 Directory Structure
-
-task_2/
+```
+task_2/  
 ├── data/
 │   ├── train/
 │   │   ├── NORMAL/
@@ -33,7 +35,7 @@ task_2/
 ├── Q4_CNN.ipynb
 ├── Q5_CNN.ipynb
 
-
+```
 ---
 
 ## 📝 Notebooks Description
@@ -43,7 +45,7 @@ task_2/
 | `Q1.ipynb`     | Exploratory Data Analysis (EDA): Data inspection, visualization, and preprocessing. |
 | `Q2_CNN.ipynb` | CNN training and evaluation for binary pneumonia classification.             |
 | `Q3_CNN.ipynb` | Integrated Gradients implementation with attribution map visualization.      |
-| `Q4_CNN.ipynb` | Grad-CAM implementation and comparison with Integrated Gradients.            |
+| `Q4_CNN.ipynb` | Grad-CAM implementation with map visualization                               |
 | `Q5_CNN.ipynb` | Data Randomization Test to validate attribution method reliability.          |
 
 ### Download and Prepare Data
