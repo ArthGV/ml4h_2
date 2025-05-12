@@ -16,15 +16,15 @@ This project explores interpretable and explainable deep learning techniques for
 
 task_2/
 ├── data/
-│ ├── train/
-│ │ ├── NORMAL/
-│ │ └── PNEUMONIA/
-│ ├── test/
-│ │ ├── NORMAL/
-│ │ └── PNEUMONIA/
-│ └── val/
-│ ├── NORMAL/
-│ └── PNEUMONIA/
+│   ├── train/
+│   │   ├── NORMAL/
+│   │   └── PNEUMONIA/
+│   ├── test/
+│   │   ├── NORMAL/
+│   │   └── PNEUMONIA/
+│   └── val/
+│       ├── NORMAL/
+│       └── PNEUMONIA/
 ├── pneumonia_cnn_model_15epochs.pth
 ├── pneumonia_CNN_model_random_label_epochs_15.pth
 ├── Q1.ipynb
@@ -47,17 +47,23 @@ task_2/
 | `Q5_CNN.ipynb` | Data Randomization Test to validate attribution method reliability.          |
 
 ### Download and Prepare Data
-Download the dataset from Kaggle and place it under the data/ directory as shown above.
 
-## Run the Notebooks
-Execute the notebooks in the following order for a full analysis:
-Q1.ipynb → Q2_CNN.ipynb → Q3_CNN.ipynb → Q4_CNN.ipynb → Q5_CNN.ipynb
+Download the dataset from Kaggle and place it under the `data/` directory as shown above.
+
+---
+
+###  Run the Notebooks
+
+Execute the notebooks in the following order for a full analysis:  
+`Q1.ipynb → Q2_CNN.ipynb → Q3_CNN.ipynb → Q4_CNN.ipynb → Q5_CNN.ipynb`
+
+---
 
 ### Features
 
-Convolutional Neural Network (CNN) for binary classification.  
-- Post-hoc Explainability Methods:  
+- **Convolutional Neural Network (CNN)** for binary classification  
+- **Post-hoc Explainability Methods**:  
   - Integrated Gradients (Q3)  
-  - Grad-CAM (Q4)    
-Sanity Checks with Data Randomization Test (Q5)  
-Clean, reproducible pipeline with model saving and attribution comparison.  
+  - Grad-CAM (Q4)  
+- **Sanity Checks** with Data Randomization Test (Q5)  
+- **Clean, reproducible pipeline** with model saving and attribution comparison
