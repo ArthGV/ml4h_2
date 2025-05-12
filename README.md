@@ -1,8 +1,47 @@
 # ml4h_2
 
-### Part_1
+## Heart Disease Prediction Dataset (ML4H Project 2 - Task 1)
 
-The code of every question is fully contained in a notebook named 1_Qi.ipynb.
+###  Overview
+
+This project explores interpretable and explainable deep learning techniques for medical imaging using the **Chest X-Ray Images (Pneumonia)** dataset. The objective is to train convolutional neural networks (CNNs) for pneumonia classification and analyze their decision-making processes using post-hoc explainability methods such as **Integrated Gradients** and **Grad-CAM**.
+
+---
+
+### 📁 Directory Structure
+```
+task_1/  
+├── data/
+    ├── data_preprocessed.csv
+    ├── test_data_preprocessed.csv
+    ├── outcome_test_test.csv
+    ├── outcome_test.csv
+    ├── test_split.csv
+    ├── train_val_split.csv
+├── pneumonia_cnn_model_15epochs.pth
+├── pneumonia_CNN_model_random_label_epochs_15.pth
+├── 1_Q1.ipynb
+├── 1_Q2.ipynb
+├── 1_Q3.ipynb
+├── 1_Q4.ipynb
+
+```
+---
+
+## 📝 Notebooks Description
+
+| Notebook       | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| `1_Q1.ipynb`   | Exploratory Data Analysis : Data inspection, visualization, and preprocessing. |
+| `1_Q2.ipynb` | Lasso regretion prediction.            |
+| `1_Q3.ipynb` | MLP prediction and shapley values analysis.     |
+| `1_Q4.ipynb` | NAM prediction and feature analysis.                              |
+
+
+###  Run the Notebooks
+
+Execute the notebooks in the following order for a full analysis:  
+`1_Q1.ipynb → 1_Q2.ipynb → 1_Q3.ipynb → 1_Q4.ipynb`
 
 ---
 
